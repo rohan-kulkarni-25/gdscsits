@@ -11,7 +11,8 @@
   "description": "This is official bot for GDSC-SITS Discord Server",
   "dependencies": {
     "discord.js": "^13.1.0",
-    "dotenv": "^10.0.0"
+    "dotenv": "^10.0.0",
+    "node": "^16.6.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.12"
