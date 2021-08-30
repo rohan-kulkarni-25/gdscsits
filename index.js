@@ -11,7 +11,6 @@ client.once("ready", () => {
 })
 
 client.on("guildMemberAdd", (client, member) => {
-  console.log(client)
   const channel = client.guild.channels.cache.find(
     c => c.name == "general"
   );
