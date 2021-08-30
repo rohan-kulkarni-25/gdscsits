@@ -1,5 +1,4 @@
 const Discord = require("discord.js");
-const config = require("./src/Data/config.json");
 const dotenv = require('dotenv');
 
 dotenv.config();
