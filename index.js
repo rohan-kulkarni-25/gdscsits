@@ -12,6 +12,7 @@ client.once("ready", () => {
 })
 
 client.on("guildMemberAdd", (client, member) => {
+  console.log(client)
   const channel = client.guild.channels.cache.find(
     c => c.name == "general"
   );
@@ -36,7 +37,7 @@ client.on("guildMemberAdd", (client, member) => {
     .setTimestamp(client.joinedTimestamp)
     .setFooter('We are glad to have you with us', 'https://i.imgur.com/eRxIacv.png');
 
-  channel.send({ embeds: [embed] });
+  channel.send(embed);
 });
 
 
